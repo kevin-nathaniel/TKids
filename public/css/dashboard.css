@@ -1,0 +1,180 @@
+/* css baru */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron {
+    line-height: 70px;
+}
+
+.jumbotron h2 {
+    font-weight: 700;
+}
+
+.navibar {
+font-weight: 700;
+}
+
+.offcanvas-body a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: list-item;
+    padding: 20px;
+}
+
+.offcanvas a:hover {
+    background-color: white;
+    color: #2e5eec;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    text-transform: inherit;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.menu {
+    float: right;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #2e5eec;
+}
+
+main h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #2e5eec;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.button-link {
+    background: #2e5eec;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.button-link:hover {
+    background: #fff;
+    text-decoration: none;
+    color: #2e5eec;
+    border-style: dashed;
+    border-color: #2e5eec;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+/* Support */
+.support-card {
+    text-align: center;
+    width: 100%;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+}
+
+.partner-list img{
+    margin: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #2e5eec;
+    text-align: left;
+    padding: 1rem 0 2rem;
+    margin-top: 3rem;
+}
+
+footer .footer-card {
+    text-align: left;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+.footer-card h3 {
+    color: white;
+    display: inline-block;
+    font-size: 700;
+    border-bottom: 1px solid white;
+}
+
+.footer-card p {
+    width: auto;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 1.5rem;
+    font-size: 900;
+}
+
+.footer-card a {
+    width: auto;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 1.5rem;
+    font-size: 900;
+}
+
+footer .credits {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
