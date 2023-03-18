@@ -18,8 +18,8 @@
                     <p class="fs-4">Berikut ini adalah daftar sekolah TK/PAUD yang telah terdaftar di Kota Balikpapan. Silahkan klik tombol di bawah ini untuk menambahkan data sekolah baru.</p>
                     <p><a href="{{ url('sekolah/create') }}" class="button-link">Tambah Data</a></p>
                 </div>
-                <form action="" method="post" >
-                    <input type="text" name="keyword" class="search" autofocus placeholder="Masukkan Kata Kunci Pencarian" autocomplete="off" size="50">
+                <form action="{{ url('sekolah') }}" method="get" >
+                    <input type="search" name="katakunci" value="{{ Request::get('katakunci') }}"  class="search" autofocus placeholder="Masukkan Kata Kunci Pencarian" autocomplete="off" size="50">
                     <button type="submit" name="cari" class="btn mb-2 mt-1" style="background-color: #2e5eec; color: #FFF;">Cari</button>
                 </form>
                 <div class="table-responsive">

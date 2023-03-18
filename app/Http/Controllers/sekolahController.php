@@ -4,15 +4,24 @@ namespace App\Http\Controllers;
 
 use App\Models\sekolah;
 use Illuminate\Http\Request;
+use Schema;
+use Session;
 
 class sekolahController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $data = sekolah::orderBy('npsn', 'asc') -> paginate();
+        $katakunci = $request->katakunci;
+        if(strlen($katakunci)) {
+            $data = sekolah::where('npsn','like','%katakunci%')->paginate();
+            // $data = sekolah::where('npsn','like','%katakunci%')->orWhere('nama_sekolah','like','%katakunci%')->orWhere('alamat','like','%katakunci%')->orWhere('status','like','%katakunci%')->paginate();
+        } else {
+            $data = sekolah::orderBy('npsn', 'asc') -> paginate();
+        }
+        // $data = sekolah::orderBy('npsn', 'asc') -> paginate();
         return view('school-list')->with('data', $data);
     }
 

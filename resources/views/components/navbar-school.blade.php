@@ -30,7 +30,10 @@
                 <a class="nav-link"href="{{ '/dashboard' }}">Beranda</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{ url('sekolah') }}">Data TK/PAUD</a>
+                <a class="nav-link" href="{{ url('sekolah') }}">Data Siswa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url('sekolah') }}">Laporan Kegiatan Siswa</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="logout.php">Logout</a>

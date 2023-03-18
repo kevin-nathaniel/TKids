@@ -14,6 +14,6 @@ class sekolah extends Model
         'alamat',
         'status'
     ];
-    protected $table = 'sekolahs';
+    protected $table = 'sekolah';
     public $timestamps = false;
 }

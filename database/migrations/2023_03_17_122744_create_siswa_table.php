@@ -11,9 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('siswas', function (Blueprint $table) {
+        Schema::create('siswa', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('id_sekolah') ->unsigned();
             $table->string('nama_siswa');
             $table->bigInteger('nis') -> unsigned();
             $table->string('nama_wali_murid');
@@ -27,8 +26,7 @@ return new class extends Migration
             $table->string('keterangan');
             $table->timestamps();
 
-            $table -> foreign('id_sekolah')->references('id_sekolah')->on('sekolahs')->onDelete('cascade')-> onUpdate('cascade');
-            $table -> foreign('nis')->references('id')->on('users')->onDelete('cascade')-> onUpdate('cascade');
+            
 
 
             
@@ -40,6 +38,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('siswas');
+        Schema::dropIfExists('siswa');
     }
 };

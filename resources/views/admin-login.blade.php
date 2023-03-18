@@ -16,7 +16,7 @@
     <div class="login-box">
         <img src="{{ asset('assets/LOGO hacha.svg') }}" class="login-picture">
         <h1>Login</h1>
-        <form action="{{ route('postlogin') }}" method="post">
+        <form action="" method="post">
         @csrf
             <div class="input">
                 <x-feathericon-user />
@@ -26,7 +26,7 @@
                 <x-feathericon-key />
                 <input type="password" name="password" placeholder="Password" required>
             </div>
-            <button class="button" href="{{ route('postlogin') }}">Send</button>
+            <button class="button" href="">Send</button>
         </form>
 
     </div>

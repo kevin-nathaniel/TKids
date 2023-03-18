@@ -12,7 +12,7 @@
                 <p class="deskripsi">TK INFORMATION DATA SYSTEM</p>
                 <h2>Cepat, Mudah, Efisien</h2>
                 <p class="fs-4">Silahkan akses halaman berikut untuk melihat, menambahkan, dan mengubah data sekolah TK/PAUD di Balikpapan.</p>
-                <p><a href="isi.php" class="button-link">Isi Sekarang</a></p>
+                <p><a href="{{ url('sekolah') }}" class="button-link">Isi Sekarang</a></p>
             </div>
         </section>
 
@@ -21,8 +21,7 @@
             <div class="kolom">
                 <p class="deskripsi">Silahkan Simak Langkah Berikut</p>
                 <h2>Langkah Pengisian</h2>
-                <p class="fs-5">Silahkan lakukan pengisian Berita Acara Pemeriksaan dengan mengisi beberapa informasi yang dibutuhkan seperti profil dan alamat perusahaan serta tingkat keselamatan kerja dan kelayakan tempat kerja berdasarkan hasil pengamatan langsung di lapangan.</p>
-                <p><a href="#tutors" class="button-link" onclick="smoothScroll">Tata Cara Pengisian</a></p>
+                <p class="fs-5">Silahkan lakukan pengisian data sekolah TK/PAUD yang ada di Balikpapan dengan mengisikan Nama Sekolaah, NPSN, Alamat, serta Status Sekolah..</p>
             </div>
             <img src="{{ asset('assets\Poetry-rafiki.png') }}" width="400"/>
         </section>

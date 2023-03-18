@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        
+        $this->middleware('auth');
     }
 
     /**
@@ -21,10 +21,7 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function userHome()
-    {
-        return view('home',["msg"=>"Hello! I am user"]);
-    }
+    
 
     /**
      * Show the application dashboard.
@@ -37,8 +34,8 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function adminHome()
+    public function index()
     {
-        return view('home',["msg"=>"Hello! I am admin"]);
+        return view('/dashboard-school');
     }
 }

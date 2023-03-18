@@ -21,15 +21,15 @@
 
         <div class="footer-card">
             <h3>Alamat</h3>
-            <p>Jalan Ruhui Rahayu I No.12, Sepinggan, Balikpapan Selatan. </br></br>
+            <p>Jalan Sungai Ampal KM.15 Karang Joang, Balikpapan Utara </br></br>
             Kode Pos: 76115</p>
         </div>
 
         <div class="footer-card">
             <h3>Kontak</h3>
-            <p><b>Email: </b> <a href="https://mail.google.com/mail/u/0/?to=bpbd.balikpapan@gmail.com&fs=1&tf=cm"><i
-                data-feather="mail"></i>bpbd.balikpapan@gmail.com</a></br></br>
-            <b>Telepon: </b>(0852) 874095</p>
+            <p><b>Email: </b> <a href=""><i
+                data-feather="mail"></i>tkids.cencen@gmail.com</a></br></br>
+            <b>Telepon: </b>(0852) 777511</p>
         </div>
     </div>
 
