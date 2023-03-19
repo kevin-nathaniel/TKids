@@ -57,6 +57,7 @@
                         </tbody>
                         {{ $data->links() }}
                     </table>
+                    <a href="{{ url('/sekolah') }}">Kembali</a>
                 </div>
             </section>
         </div>

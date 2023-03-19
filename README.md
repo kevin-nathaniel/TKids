@@ -1,66 +1,11 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><img src="image\logo.png" width="400" alt="TKids Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## About Us
+<p align="justify">
+TKids adalah sebuah aplikasi yang berasal dari ide brilian seorang penulis yang frustasi dengan sistem administrasi yang kacau di lingkungan PAUD dan TK. Di era digital seperti saat ini, masih banyak institusi pendidikan yang bergantung pada data fisik (berkas) untuk mengatur administrasi mereka. Hal ini tentunya membuat pekerjaan menjadi lebih sulit dan tidak efisien. Untuk mengatasi masalah ini, penulis mengembangkan aplikasi “TKids” yang mudah digunakan dan dirancang untuk mengoptimalkan pengaturan administrasi. Aplikasi ini memudahkan 3 pihak sekaligus, yaitu pemerintah, civitas akademika, dan orang tua untuk mengakses informasi penting dan mengelola administrasi mereka dengan mudah.
 
-## About Laravel
+<p align="justify">
+Dengan menggunakan “TKids”, tidak hanya menghemat waktu dan energi, tetapi juga meningkatkan efisiensi dan produktivitas dalam hal administrasi pendidikan. Pemerintah dapat mengawasi kinerja PAUD dan TK secara real-time dan membuat kebijakan yang lebih efektif berdasarkan data yang dihasilkan oleh aplikasi. Civitas akademik seperti guru dan staf administrasi dapat memantau perkembangan siswa dan mengelola administrasi dengan lebih mudah dan cepat. Orang tua juga dapat menggunakan aplikasi ini untuk memantau kondisi anak-anak ketika berada PAUD atau TK. Dengan aplikasi ini, semua pihak dapat bekerja sama secara efektif untuk mencapai tujuan yang sama, yaitu memberikan pendidikan terbaik untuk generasi masa depan.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+##Prototype Mobile
+<a href="https://www.figma.com/file/VWXqY7c6PY4EtuGtKG3JnR/Prototype-TKids?node-id=0%3A1&t=MhJswarsiVcWG8l9-1" target="_blank"><strong>Prototype Mobile</strong></a>
