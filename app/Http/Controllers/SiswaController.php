@@ -12,9 +12,18 @@ class SiswaController extends Controller
      */
     public function index(Request $request)
     {
-        
-        $data = siswa::orderBy('nis', 'asc') -> paginate();
+        $katakunci = $request->katakunci;
+        if(strlen($katakunci)) {
+            $data = siswa::where('nis','like',"%". $katakunci . "%")->orWhere('nama_siswa','like',"%". $katakunci . "%")->orWhere('tahun_ajaran','like',"%". $katakunci . "%")->paginate();
+
+        } else {
+            $data = siswa::orderBy('nis', 'asc') -> paginate();
+        }
+        // $data = sekolah::orderBy('npsn', 'asc') -> paginate();
         return view('student-list')->with('data', $data);
+
+        // $data = siswa::orderBy('nis', 'asc') -> paginate();
+        // return view('student-list')->with('data', $data);
     }
 
 
@@ -31,6 +40,7 @@ class SiswaController extends Controller
         $request->validate([
             'nama_siswa' => 'required',
             'nis' => 'required|numeric|unique:siswa,nis',
+            'nama_wali_murid' => 'required',
             'kelas' => 'required',
             'nilai_berhitung' => 'required',
             'nilai_membaca' => 'required',
@@ -44,7 +54,7 @@ class SiswaController extends Controller
             'nama_siswa' => $request-> nama_siswa,
             'nis' => $request -> nis,
             'nama_wali_murid' => $request -> nama_wali_murid,
-            'kelas' => $request -> nama_wali_murid,
+            'kelas' => $request -> kelas,
             'nilai_berhitung' => $request -> nilai_berhitung,
             'nilai_membaca' => $request -> nilai_membaca,
             'nilai_menulis' => $request -> nilai_membaca,

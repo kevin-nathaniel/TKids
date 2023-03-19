@@ -16,12 +16,17 @@
     <div class="login-box">
         <img src="{{ asset('assets/LOGO hacha.svg') }}" class="login-picture">
         <h1>Login</h1>
-        <form action="" method="post">
+        <form action="{{ route('login') }}" method="post">
         @csrf
             <div class="input">
                 <x-feathericon-user />
-                <input type="text" name="username" placeholder="Username" required>
+                <input type="text" name="username" placeholder="Username" class=" @error('username') is-invalid @enderror" name="username" value="{{ old('username') }}"" required>
             </div>
+            @error('username')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
             <div class="input">
                 <x-feathericon-key />
                 <input type="password" name="password" placeholder="Password" required>

@@ -14,9 +14,9 @@
         <section id="home">
             <div class="kolom">
                 <p class="deskripsi">TK Information System</p>
-                <h2>Tambahkan Data Sekolah TK/PAUD
+                <h2>Tambahkan Data Siswa TK/PAUD
                 </h2>
-                <p class="fs-4">Silahkan tambahkan data sekolah TK/PAUD yang ingin anda tambahkan dengan mengisi form di bawah ini.</p>
+                <p class="fs-4">Silahkan tambahkan data Siswa TK/PAUD yang ingin anda tambahkan dengan mengisi form di bawah ini.</p>
             </div>
             <form action="{{ url('nilai/'.$data->nis) }}" method="post">
             @csrf
@@ -38,19 +38,19 @@
                 <input type="text" name="kelas" id="kelas" class="form-control" placeholder="Masukkan Kelas" value="{{ $data->kelas }}">
               </div>
               <div class="form-group">
-                <label for="nilai_berhitung">nilai berhitung</label>
+                <label for="nilai_berhitung">Nilai berhitung</label>
                 <input type="text" name="nilai_berhitung" id="nilai_berhitung" class="form-control" placeholder="Masukkan nilai_berhitung" value="{{ $data->nilai_berhitung}}">
               </div>
               <div class="form-group">
-                <label for="nilai_membaca">nilai membaca</label>
+                <label for="nilai_membaca">Nilai membaca</label>
                 <input type="text" name="nilai_membaca" id="nilai_membaca" class="form-control" placeholder="Masukkan nilai_membaca" value="{{ $data->nilai_membaca }}">
               </div>
               <div class="form-group">
-                <label for="nilai_menulis">nilai menulis</label>
+                <label for="nilai_menulis">Nilai menulis</label>
                 <input type="text" name="nilai_menulis" id="nilai_menulis" class="form-control" placeholder="Masukkan nilai_menulis" value="{{ $data->nilai_menulis }}">
               </div>
               <div class="form-group">
-                <label for="nilai_menggambar">nilai menggambar</label>
+                <label for="nilai_menggambar">Nilai menggambar</label>
                 <input type="text" name="nilai_menggambar" id="nilai_menggambar" class="form-control" placeholder="Masukkan nilai_menggambar" value="{{ $data->nilai_menggambar }}">
               </div>
               <div class="form-group">

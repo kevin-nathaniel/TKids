@@ -33,7 +33,7 @@
                 <a class="nav-link" href="{{ url('sekolah') }}">Data TK/PAUD</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="logout.php">Logout</a>
+                <a class="nav-link" href="{{ route('login') }}">Logout</a>
               </li>
             </ul>
           </div>

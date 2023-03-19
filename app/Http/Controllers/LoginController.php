@@ -28,7 +28,24 @@ class LoginController extends Controller
      *
      * @var string
      **
-    p//rotected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = RouteServiceProvider::HOME;
+
+
+    public function login()
+    {
+        if(username == "admin)
+        {
+            return redirect('/Dashboard');
+        }
+        if(username == "user1)
+        {
+            return redirect('/dashboard-school')
+        }
+    }
+
+
+
+
 
     public function() authenticated()
     {

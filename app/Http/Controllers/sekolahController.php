@@ -16,8 +16,8 @@ class sekolahController extends Controller
     {
         $katakunci = $request->katakunci;
         if(strlen($katakunci)) {
-            $data = sekolah::where('npsn','like','%katakunci%')->paginate();
-            // $data = sekolah::where('npsn','like','%katakunci%')->orWhere('nama_sekolah','like','%katakunci%')->orWhere('alamat','like','%katakunci%')->orWhere('status','like','%katakunci%')->paginate();
+            $data = sekolah::where('npsn','like',"%". $katakunci . "%")->orWhere('nama_sekolah','like',"%". $katakunci . "%")->orWhere('status','like',"%". $katakunci . "%")->paginate();
+
         } else {
             $data = sekolah::orderBy('npsn', 'asc') -> paginate();
         }
@@ -32,6 +32,7 @@ class sekolahController extends Controller
     {
         return view('insert-school');
     }
+
 
     /**
      * Store a newly created resource in storage.
